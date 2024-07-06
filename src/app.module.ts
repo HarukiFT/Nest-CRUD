@@ -5,7 +5,7 @@ import { UsersModule } from './modules/users/users.module';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './modules/auth/auth.module';
-import { ProtectedModule } from './protected/protected.module';
+import { ProtectedModule } from './modules/protected/protected.module';
 
 @Module({
   imports: [ConfigModule.forRoot({
